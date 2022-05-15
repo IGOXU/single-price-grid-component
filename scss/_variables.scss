@@ -1,11 +1,23 @@
 $colors: (
   //Primary
   "cyan": hsl(179, 62%, 43%),
+  "light-cyan": hsl(179, 47%, 52%),
   "bright-yellow": hsl(71, 73%, 54%),
   
   //Neutral
   "light-gray": hsl(204, 43%, 93%),
   "grayish-blue": hsl(218, 22%, 67%),
+
+  "white": hsl(0, 0%, 100%),
+  "transparent-white": hsla(0, 0%, 100%, 50%),
+);
+
+$sizes: (
+  "xl": 28px,
+  "lg": 18px,
+  "md": 16px,
+  "sm": 13px,
+  "xm": 12px,
 );
 
 //Font

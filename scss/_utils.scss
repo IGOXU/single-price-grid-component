@@ -5,3 +5,19 @@
 .capitalize{
   text-transform: capitalize;
 }
+
+@each $key, $value in $colors {
+  .bg-#{$key}{
+    background-color: $value;
+  }
+  
+  .text-#{$key}{
+    color: $value;
+  }
+}
+
+@each $key, $value in $sizes {
+  .text-#{$key}{
+    font-size: $value;
+  }
+}
